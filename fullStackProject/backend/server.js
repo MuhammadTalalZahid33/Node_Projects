@@ -1,6 +1,8 @@
 import express from 'express'
-
+import cors from 'cors'
 const app = express();
+app.use(cors());
+
 const users = [
     { id: 1, name: 'Alice', age: 30 },
     { id: 2, name: 'Bob', age: 24 },
