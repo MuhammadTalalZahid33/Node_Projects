@@ -34,7 +34,6 @@ connectDB()
 
 
 
-
 // CONNECTING DB IN index.js 
 
 // import { DB_NAME  } from "./constants";
